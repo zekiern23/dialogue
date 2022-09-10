@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Courtroom.unity
     guid: 6fc0203b5d8cbfe4ea55e199f1f98c80
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: d9adecade11774648a5332db01be5dda
   m_configObjects: {}
