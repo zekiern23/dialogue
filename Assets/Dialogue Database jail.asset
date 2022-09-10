@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: Dialogue Database
+  m_Name: Dialogue Database jail
   m_EditorClassIdentifier: 
   version: 
   author: 
@@ -60,7 +60,7 @@ MonoBehaviour:
   - id: 2
     fields:
     - title: Name
-      value: Barmaid
+      value: Albert
       type: 0
       typeString: 
     - title: Pictures
@@ -75,6 +75,36 @@ MonoBehaviour:
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
+    - title: Display Name
+      value: Albert
+      type: 0
+      typeString: 
+    portrait: {fileID: 0}
+    spritePortrait: {fileID: 0}
+    alternatePortraits: []
+    spritePortraits: []
+  - id: 3
+    fields:
+    - title: Name
+      value: Axel
+      type: 0
+      typeString: 
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Display Name
+      value: Axel
+      type: 0
+      typeString: 
     portrait: {fileID: 0}
     spritePortrait: {fileID: 0}
     alternatePortraits: []
@@ -176,7 +206,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks:
       - originConversationID: 1
@@ -192,8 +222,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 20
+        x: 429.0559
+        y: 36.79547
         width: 160
         height: 30
     - id: 1
@@ -207,7 +237,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -219,7 +249,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Evlat, sana \xE7ok eski bir hikayeyi anlatma vakti geldi."
+        value: "S\xF6yle bakal\u0131m sabah ne yapt\u0131n\n"
         type: 0
         typeString: 
       - title: Sequence
@@ -247,8 +277,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 70
+        x: 430.9993
+        y: 103.22943
         width: 160
         height: 30
     - id: 2
@@ -262,11 +292,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -274,7 +304,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Tabiki dinlemeyi \xE7ok isterim."
+        value: "Bug\xFCn biraz erken uyand\u0131m, kitap okudum. Zaman \xE7ok \xE7abuk
+          ge\xE7mi\u015F, kitaba dalm\u0131\u015F olmal\u0131y\u0131m kontrol bile
+          akl\u0131mdan \xE7\u0131kt\u0131.\n"
         type: 0
         typeString: 
       - title: Sequence
@@ -302,8 +334,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 120
+        x: 430.9993
+        y: 153.22943
         width: 160
         height: 30
     - id: 3
@@ -317,11 +349,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 2
+        value: 1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -329,8 +361,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Bu hikaye aileme sahip olmadan \xF6nce tam da ben gen\xE7li\u011Fimin
-          ba\u015F\u0131ndayken ya\u015Fand\u0131."
+        value: "Kitaplar Roshaun, kitaplar seni bu ac\u0131mas\u0131z d\xFCnyadan
+          al\u0131p g\xF6t\xFCr\xFCr \u015Furda ya\u015Fad\u0131\u011F\u0131m hayat\u0131
+          bir nebze olsun unutturur."
         type: 0
         typeString: 
       - title: Sequence
@@ -358,8 +391,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 170
+        x: 430.9993
+        y: 203.22943
         width: 160
         height: 30
     - id: 4
@@ -377,7 +410,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -385,8 +418,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "O zamanlar belki de daha iyi niyetli, kan\u0131 h\u0131zl\u0131 akan
-          bir delikanl\u0131yd\u0131m, diyorum ya gen\xE7li\u011Fimin ba\u015Flar\u0131ndayd\u0131m."
+        value: "Hakl\u0131s\u0131n Axel kitaplar s\xF6yledi\u011Fin \xFCzere bu hayat\u0131
+          bir nebze olsun unutturabiliyor.Sanki o kitaplarda ben ya\u015F\u0131yormu\u015Fumcas\u0131na
+          d\xFC\u015F\xFCnebiliyorum. "
         type: 0
         typeString: 
       - title: Sequence
@@ -414,8 +448,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 220
+        x: 430.9993
+        y: 253.22943
         width: 160
         height: 30
     - id: 5
@@ -429,7 +463,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -441,9 +475,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "Zor zamanlard\u0131, iki d\xFCnya harbi ve bir buhran ard\u0131 ard\u0131na
-          \xFCst\xFCm\xFCzde a\u011F\u0131r yaralar b\u0131rakm\u0131\u015Ft\u0131
-          ve tek s\u0131k\u0131nt\u0131m\u0131z bunlar de\u011Fildi,"
+        value: "D\xFC\u015F\xFCnmek her\u015Fey d\xFC\u015F\xFCnmek \xFCst\xFCne
+          zaten bu hayatta d\xFC\u015F\xFCnmeden var olamazs\u0131n."
         type: 0
         typeString: 
       - title: Sequence
@@ -471,8 +504,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 270
+        x: 430.9993
+        y: 303.22943
         width: 160
         height: 30
     - id: 6
@@ -490,7 +523,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -498,8 +531,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " renk ay\u0131r\u0131m\u0131 h\u0131z kesmeden \xFClkeyi i\xE7ten
-          i\xE7e kaosa s\xFCr\xFCkl\xFCyordu."
+        value: "bu g\xFCzel sohbeti b\xF6l\xFCyorum ancak sabah bir\u015Fey mi oldu
+          bir karga\u015Fa \xE7\u0131kt\u0131 san\u0131r\u0131m."
         type: 0
         typeString: 
       - title: Sequence
@@ -527,8 +560,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 320
+        x: 430.9993
+        y: 353.22943
         width: 160
         height: 30
     - id: 7
@@ -542,7 +575,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -554,8 +587,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u0130\u015Fte tam o s\u0131aralarda buradan bir ka\xE7 blok sa\u011Fda
-          kalan evime gidiyordum,"
+        value: "Evet gardiyanlardan birisi kendisini \xFCst\xFCn g\xF6r\xFCyor fazlas\u0131yla
+          herkese bir\u015Feyler yapmas\u0131n\u0131 s\xF6yledi\u011Fi ancak yap\u0131lmad\u0131\u011F\u0131n\u0131
+          g\xF6rd\xFC\u011F\xFC anda da karga\u015Fa \xE7\u0131kart\u0131yor."
         type: 0
         typeString: 
       - title: Sequence
@@ -576,6 +610,12 @@ MonoBehaviour:
         destinationDialogueID: 8
         isConnector: 0
         priority: 2
+      - originConversationID: 1
+        originDialogueID: 7
+        destinationConversationID: 1
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -583,8 +623,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 370
+        x: 430.9993
+        y: 403.22943
         width: 160
         height: 30
     - id: 8
@@ -602,7 +642,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -610,8 +650,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "asla unutmam yaz g\xFCne\u015Finin hepimizi tepeden t\u0131rna\u011Fa
-          kavurdu\u011Fu g\xFCnlerden biriydi, "
+        value: "Umar\u0131m bana da bir\u015Feyler s\xF6ylemez."
         type: 0
         typeString: 
       - title: Sequence
@@ -639,8 +678,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 420
+        x: 298.08804
+        y: 493.73566
         width: 160
         height: 30
     - id: 9
@@ -654,7 +693,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -666,8 +705,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "benim de sokaktaki ko\u015Fu\u015Ftumacam bitmi\u015F cebime bir
-          ka\xE7 cent dahi koyabilmi\u015Ftim,"
+        value: "\u0130\xE7ini ferah tut Roshaun, ben her zaman arkanday\u0131m."
         type: 0
         typeString: 
       - title: Sequence
@@ -695,8 +733,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 470
+        x: 298.08804
+        y: 543.73566
         width: 160
         height: 30
     - id: 10
@@ -714,7 +752,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -722,7 +760,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: " b\xF6yle bakarsan g\xFCzel bir g\xFCn ge\xE7irdi\u011Fim bile s\xF6ylenebilirdi."
+        value: "Te\u015Fekk\xFCr ederim her\u015Fey i\xE7in."
         type: 0
         typeString: 
       - title: Sequence
@@ -750,8 +788,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 520
+        x: 298.08804
+        y: 593.73566
         width: 160
         height: 30
     - id: 11
@@ -765,7 +803,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -777,8 +815,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\u015Eimdi oldu\u011Fu gibi tam da cebimdeki paray\u0131 d\xFC\u015F\xFCn\xFCrken
-          inan\u0131lmaz bir g\xFCr\xFClt\xFCyle oldu\u011Fum yerde s\u0131\xE7rad\u0131m,"
+        value: "En son kitap okuyorum demi\u015Ftin anlat bakal\u0131m kitab\u0131n
+          i\xE7eri\u011Fi nedir?"
         type: 0
         typeString: 
       - title: Sequence
@@ -806,8 +844,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 570
+        x: 298.08804
+        y: 643.73566
         width: 160
         height: 30
     - id: 12
@@ -825,7 +863,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -833,9 +871,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "ayaklar\u0131m yere de\u011Fer de\u011Fmez i\xE7g\xFCd\xFClerim kudurmaya
-          ba\u015Flad\u0131, g\xFCn\xFCn her hangi bir saatinde cinayetlerin i\u015Flendi\u011Fi
-          mahallemde bir kaza asla hayra alamet de\u011Fildi,"
+        value: "\u015E\xF6yle ki... "
         type: 0
         typeString: 
       - title: Sequence
@@ -853,7 +889,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 12
         destinationConversationID: 1
-        destinationDialogueID: 13
+        destinationDialogueID: 20
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -863,8 +899,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 620
+        x: 296.49713
+        y: 699.4174
         width: 160
         height: 30
     - id: 13
@@ -882,7 +918,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -890,9 +926,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "hele bir de uzaktan gelen polis sirenlerini de hesaba katarsak burada
-          durmak ka\xE7\u0131nlmaz bir ba\u015F a\u011Fr\u0131s\u0131 do\u011Fruuabilir
-          dedim."
+        value: "Aptal heirflerr, i\u015Fleri g\xFC\xE7leri g\xFC\xE7 g\xF6sterisi
+          yap\u0131p mahkumlar\u0131 sindirmek."
         type: 0
         typeString: 
       - title: Sequence
@@ -920,8 +955,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 670
+        x: 533.5308
+        y: 491.20404
         width: 160
         height: 30
     - id: 14
@@ -935,7 +970,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -947,8 +982,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "O anda kaza yapan araba g\xF6zlerimin \xF6n\xFCnde tutu\u015Fmaya
-          ba\u015Flam\u0131\u015Ft\u0131,"
+        value: "Roshaun s\xF6zlerie dikkat et, ba\u015F\u0131m\u0131za bela gelsin
+          istemeyiz.\n"
         type: 0
         typeString: 
       - title: Sequence
@@ -976,8 +1011,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 720
+        x: 533.5308
+        y: 541.20404
         width: 160
         height: 30
     - id: 15
@@ -995,7 +1030,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1003,9 +1038,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "tam o esnada ben s\u0131rt\u0131m\u0131 d\xF6nerk sokakta olay\u0131
-          izleyen bir kad\u0131n \"araba \xE7ocuk var\" \xE7\u0131\u011Fl\u0131\u011F\u0131yla
-          v\xFCcudumun kontolleri i\xE7g\xFCd\xFClerime kald\u0131,"
+        value: Sen de var ya...
         type: 0
         typeString: 
       - title: Sequence
@@ -1023,118 +1056,6 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 15
         destinationConversationID: 1
-        destinationDialogueID: 16
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 30
-        y: 770
-        width: 160
-        height: 30
-    - id: 16
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "g\xF6z a\xE7\u0131p kapamaya kalmad\u0131 ki arabaya ko\u015Fmaya
-          ba\u015Flam\u0131\u015Ft\u0131m."
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 16
-        destinationConversationID: 1
-        destinationDialogueID: 17
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 30
-        y: 820
-        width: 160
-        height: 30
-    - id: 17
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "ko\u015Fmayla ge\xE7irdi\u011Fim k\u0131sa s\xFCrede alevler artm\u0131\u015F
-          etrafa metal ve ya\u011F kar\u0131\u015F\u0131m\u0131 bir koku yay\u0131lm\u0131\u015Ft\u0131, "
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 17
-        destinationConversationID: 1
         destinationDialogueID: 18
         isConnector: 0
         priority: 2
@@ -1145,8 +1066,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 870
+        x: 533.5308
+        y: 592.46985
         width: 160
         height: 30
     - id: 18
@@ -1160,7 +1081,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1172,7 +1093,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "maruz kald\u0131\u011F\u0131m s\u0131cakl\u0131k inan\u0131lmazd\u0131."
+        value: ...
         type: 0
         typeString: 
       - title: Sequence
@@ -1200,8 +1121,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 920
+        x: 533.5308
+        y: 642.46985
         width: 160
         height: 30
     - id: 19
@@ -1219,7 +1140,7 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 1
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -1227,9 +1148,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\xD6n koltukta oturan iki ki\u015Fi i\xE7in art\u0131k \xE7ok ge\xE7
-          olsa da arka koltukta oturan \xE7ocu\u011Fun hala nefes ald\u0131\u011F\u0131n\u0131
-          g\xF6rebiliyordum."
+        value: 'Baksana gardiyan geliyor.
+
+'
         type: 0
         typeString: 
       - title: Sequence
@@ -1257,8 +1178,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
-        y: 970
+        x: 534.6297
+        y: 694.66766
         width: 160
         height: 30
     - id: 20
@@ -1272,7 +1193,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 1
+        value: 2
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -1284,232 +1205,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "H\u0131zl\u0131ca araban\u0131n di\u011Fer taraf\u0131na ko\u015Fup
-          elimi yakaca\u011F\u0131n\u0131 bilerek kap\u0131y\u0131 sert bir hamleyle
-          a\xE7t\u0131m,"
-        type: 0
-        typeString: 
-      - title: Sequence
         value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 20
-        destinationConversationID: 1
-        destinationDialogueID: 21
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 30
-        y: 1020
-        width: 160
-        height: 30
-    - id: 21
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "neyse ki \xE7ocuk s\u0131k\u0131\u015Fmam\u0131\u015Ft\u0131 ki rahatl\u0131kla
-          \xE7\u0131kard\u0131m."
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 21
-        destinationConversationID: 1
-        destinationDialogueID: 22
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 30
-        y: 1070
-        width: 160
-        height: 30
-    - id: 22
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "\xC7\u0131kard\u0131\u011F\u0131m \xE7ocu\u011Fun ad\u0131 David'mi\u015F. "
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 22
-        destinationConversationID: 1
-        destinationDialogueID: 23
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 30
-        y: 1120
-        width: 160
-        height: 30
-    - id: 23
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "David'i o facia'dan \xE7\u0131kartt\u0131\u011F\u0131mda bilinci
-          kapal\u0131yd\u0131,"
-        type: 0
-        typeString: 
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: 
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 23
-        destinationConversationID: 1
-        destinationDialogueID: 25
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 30
-        y: 1170
-        width: 160
-        height: 30
-    - id: 25
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: 
-      - title: Description
-        value: 
-        type: 0
-        typeString: 
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: 
-      - title: Dialogue Text
-        value: "kollar\u0131ndan destekleyerek arabaya uzak kalan kald\u0131r\u0131ma
-          kadar s\xFCr\xFCkledim."
         type: 0
         typeString: 
       - title: Sequence
@@ -1531,13 +1227,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30.813011
-        y: 1228.0848
+        x: 404.1894
+        y: 771.3954
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 976.07996}
-    canvasZoom: 1.0799996
+    canvasScrollPosition: {x: 12.256809, y: 13.272582}
+    canvasZoom: 1.0600007
   - id: 2
     fields:
     - title: Title
@@ -1617,7 +1313,802 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 0
+        destinationConversationID: 2
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 354.3123
+        y: 13.282143
+        width: 160
+        height: 30
+    - id: 1
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Bizim k\xFC\xE7\xFCk ku\u015F kitap okur olmu\u015F. Ver bakay\u0131m
+          o kitab\u0131 neymi\u015F bu? HAHAHA"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 1
+        destinationConversationID: 2
+        destinationDialogueID: 2
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 353.3414
+        y: 57.982307
+        width: 160
+        height: 30
+    - id: 2
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Albert sence de bu normal bir davran\u0131\u015F m\u0131? , S\xF6yledi\u011Fin
+          do\u011Fru bir\u015Fey mi?"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 2
+        destinationConversationID: 2
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 351.81082
+        y: 100.59225
+        width: 160
+        height: 30
+    - id: 3
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Ben istedi\u011Fimi yapar\u0131m istedi\u011Fimi de s\xF6ylerim.
+          Senin i\u015Fin ne bu veletle koruyacak adam bulamad\u0131n \u015Fimdi
+          de veletleri mi koruyorsun?"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 3
+        destinationConversationID: 2
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 353.19278
+        y: 146.32037
+        width: 160
+        height: 30
+    - id: 4
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Hapiste olmamas\u0131 gereken bir \xE7ocuk, sence de korunmaya ihtiyac\u0131
+          yok mu?"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 4
+        destinationConversationID: 2
+        destinationDialogueID: 5
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 352.22195
+        y: 197.29126
+        width: 160
+        height: 30
+    - id: 5
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Yok, biz neden var\u0131z bizim gibi iyi insanlar varken sana m\u0131
+          kalm\u0131\u015F onu korumak?"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 5
+        destinationConversationID: 2
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 352.22195
+        y: 247.29108
+        width: 160
+        height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "\u0130yi olman\u0131n \xFCzerine pek bir\u015Fey s\xF6yleyemem sabah
+          duydu\u011Fumuz seslerden insanlar\u0131 kemiklerini k\u0131rarak korudu\u011Funu
+          felan d\xFC\u015F\xFCnmeye ba\u015Flad\u0131m. "
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 6
+        destinationConversationID: 2
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 352.22195
+        y: 297.29108
+        width: 160
+        height: 30
+    - id: 7
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "D\xFC\u015F\xFCnmek mi d\xFC\u015F\xFCnmek size yasak. \xD6zg\xFCr
+          de\u011Filsiniz siz ne bedenen ne ruhen \xF6zg\xFCrs\xFCn\xFCz.\n"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 7
+        destinationConversationID: 2
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 353.22195
+        y: 347.29108
+        width: 160
+        height: 30
+    - id: 8
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Sen de burda bizimle kal\u0131yorsun tek rol\xFCn bizi g\xF6zlemlemek
+          ne d\xFC\u015F\xFCnebiliyorsun burda ka\xE7 kitap okudun \xF6zg\xFCrl\xFCk
+          kavram\u0131n\u0131 sen nerden bilesin ki"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 8
+        destinationConversationID: 2
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 353.22195
+        y: 397.29108
+        width: 160
+        height: 30
+    - id: 9
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Kitap m\u0131 \xF6zg\xFCrl\xFC\u011F\xFC kitapla m\u0131 \xF6l\xE7\xFCyorsun
+          ben izin ald\u0131\u011F\u0131m her zaman d\u0131\u015Far\u0131 \xE7\u0131kabiliyorum.
+          \nAxel:Bizde burda izin ald\u0131\u011F\u0131m\u0131z da d\u0131\u015Far\u0131
+          \xE7\u0131kabiliyoruz Albert kimin d\u0131\u015Far\u0131 \xE7\u0131kabildi\u011Fi
+          de\u011Fil ki bu k\u0131sas yapal\u0131m kimin \xF6zg\xFCr hissetti\u011Fi
+          g\xF6ky\xFCz\xFCn\xFC her g\xF6rd\xFC\u011F\xFCmde \xF6zg\xFCr hissediyorum.Ne
+          yapabilirsin ki buna sen nas\u0131l de\u011Fi\u015Ftirebilirsin."
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 9
+        destinationConversationID: 2
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 353.22195
+        y: 447.29108
+        width: 160
+        height: 30
+    - id: 10
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Beyler buna hi\xE7 gerek yok, gereksiz bir tart\u0131\u015Fma, Axel
+          Albert hakl\u0131 kapatal\u0131m"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 10
+        destinationConversationID: 2
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 352.00244
+        y: 497.29108
+        width: 160
+        height: 30
+    - id: 11
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'Kes sesini adi velet.
+
+'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 11
+        destinationConversationID: 2
+        destinationDialogueID: 12
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 353.22195
+        y: 546.07153
+        width: 160
+        height: 30
+    - id: 12
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Ve sen Axel, de\u011Fi\u015Ftirmek mi o zaten benim elimde her\u015Fey
+          benim elimde senin izin alman da benim elimde bir s\xF6z\xFCmle 1 hafta
+          d\u0131\u015Far\u0131 \xE7\u0131kamazs\u0131n h\xFCcrenden bile \xE7\u0131kartmam
+          seni."
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 12
+        destinationConversationID: 2
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 353.22195
+        y: 597.2911
+        width: 160
+        height: 30
+    - id: 13
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "H\xFCcremden \xE7\u0131kartmasan da o demir parmakl\u0131klar\u0131n
+          ard\u0131nda bir g\xF6ky\xFCz\xFC oldu\u011Funu g\xF6r\xFCyorum ve biliyorum
+          ki bir g\xFCn rahat\xE7a oray\u0131 izleyebilece\u011Fim."
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 13
+        destinationConversationID: 2
+        destinationDialogueID: 14
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 353.22195
+        y: 647.2911
+        width: 160
+        height: 30
+    - id: 14
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: "Deneyelim Axel o kadar merakl\u0131ysan..."
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
@@ -1627,13 +2118,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 271
-        y: 127
+        x: 353.22195
+        y: 697.2911
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.52000046
+    canvasScrollPosition: {x: 18.063967, y: 0}
+    canvasZoom: 0.94000006
   syncInfo:
     syncActors: 0
     syncItems: 0
