@@ -562,7 +562,7 @@ GameObject:
   - component: {fileID: 1870093883}
   - component: {fileID: 1870093888}
   m_Layer: 0
-  m_Name: Npc
+  m_Name: Gardiyan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
