@@ -214,7 +214,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 99.304016, y: 126.617004, z: 91.855}
 --- !u!1 &351734973
 GameObject:
@@ -309,7 +309,7 @@ Transform:
   m_LocalScale: {x: 0.06661795, y: 2.2232664, z: 2.2232664}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -19.988, z: -90}
 --- !u!4 &492515373 stripped
 Transform:
@@ -2438,7 +2438,7 @@ Transform:
   - {fileID: 1105083398767651756}
   - {fileID: 614151446855784658}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &4259087843907267560
 MeshRenderer:
