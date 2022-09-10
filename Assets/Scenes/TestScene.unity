@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 1828741782}
   - component: {fileID: 1828741781}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Roshaun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -562,7 +562,7 @@ GameObject:
   - component: {fileID: 1870093883}
   - component: {fileID: 1870093888}
   m_Layer: 0
-  m_Name: Gardiyan
+  m_Name: Barmen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -580,7 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trigger: 32
+  trigger: 16
   condition:
     luaConditions: []
     questConditions: []
